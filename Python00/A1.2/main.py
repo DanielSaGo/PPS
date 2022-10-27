@@ -1,16 +1,11 @@
-# This is a sample Python script.
+# Este es el Ejercicio 1.2 de Python
 
-# Press Mayús+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+print("Proporciona el numero1:")
+numero1 = int(input())
+print("Proporciona el numero2:")
+numero2 = int(input())
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+if numero1 > numero2:
+    print("El numero mayor es:",numero1,)
+elif numero2 > numero1:
+    print("El numero mayor es:", numero2,)
