@@ -1,4 +1,10 @@
-# Este es el Ejercicio 2.3 de Python
+"""
+ Este es el Ejercicio 2.3 de Python
+
+Definir una función que calcule la longitud de una lista o una cadena dada. (Es cierto
+que python tiene la función len() incorporada, pero escribirla por nosotros mismos
+resulta un muy buen ejercicio.
+"""
 
 cadena = ("Me llamo Daniel")                                            #Creacion de la cadena
 lista = ['manzana', 'platano', 'pera', 'mango', 'naranja']              #Creacion de la lista

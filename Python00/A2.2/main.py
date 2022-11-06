@@ -1,4 +1,9 @@
-# Este es el Ejercicio 2.2 de Python
+"""
+ Este es el Ejercicio 2.2 de Python
+
+Definir una función max_de_tres(), que tome tres números como argumentos y
+devuelva el mayor de ellos.
+"""
 
 numero1 = int(input("Numero1:"))
 numero2 = int(input("Numero2:"))

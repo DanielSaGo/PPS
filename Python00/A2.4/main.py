@@ -1,4 +1,9 @@
-# Este es el Ejercicio 2.4 de Python
+"""
+ Este es el Ejercicio 2.4 de Python
+
+Escribir una función que tome un carácter y devuelva True si es una vocal, de lo
+contrario devuelve False.
+"""
 
 caracter = input("Proporciona un caracter:")                    #Escribir un caracter
 
