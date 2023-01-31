@@ -34,7 +34,7 @@ En este apartado veremos cómo se analiza el entorno, depués de hacer las activ
     git clone https://github.com/docker/docker-bench-security.git
     ```
     
-    [0](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/0image.png)
+    ![0](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/0image.png)
     
     ```bash
     cd docker-bench-security/
@@ -42,11 +42,11 @@ En este apartado veremos cómo se analiza el entorno, depués de hacer las activ
     ./docker-bench-security.sh
     ```
     
-    [1](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/1image.png)
+    ![1](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/1image.png)
     
     ![2](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/2image.png)
     
-    [3](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/3image.png)
+    ![3](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/3image.png)
     
 
 2. **Utilizando AuditD para analizar las pruebas de la Sección A, referente al host.**
@@ -57,7 +57,7 @@ A continuación instalaremos AuditD para análaizar las pruebas de las Sección 
 apt-get install [auditd](https://rubensa.wordpress.com/2018/07/23/auditando-sistemas-linux-con-el-demonio-audit/)
 ```
 
-[4](https://https://github.com/DanielSaGo/PPS/UT3-Prueba-calificable01/img/4image.png)
+![4](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/4image.png)
 
 Entraremos en el siguiente fichero para configurara las reglas de audit y escribiremos en dicho fichero lo siguiente:
 
@@ -77,7 +77,7 @@ nano /etc/audit/rules.d/audit.rules
 - w /usr/bin/docker-runc -p wa
 ```
 
-[5](https://https://github.com/DanielSaGo/PPS/UT3-Prueba-calificable01/img/5image.png)
+![5](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/5image.png)
 
 Reiniciaremo AuditD
 
@@ -113,15 +113,15 @@ nano daemon.json
 }
 ```
 
-[6](https://https://github.com/DanielSaGo/PPS/UT3-Prueba-calificable01/img/6image.png)
+![6](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/6image.png)
 
 Al ejecutar el docker-brench-security, se arreglan algunos errores con lo hecho anteriormente y veremos la diferencia con el primer análaisis de la sección A del host.
 
-[7](https://https://github.com/DanielSaGo/PPS/UT3-Prueba-calificable01/img/7image.png)
+![7](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/7image.png)
 
-[8](https://https://github.com/DanielSaGo/PPS/UT3-Prueba-calificable01/img/8image.png)
+![8](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/8image.png)
 
-[9](https://https://github.com/DanielSaGo/PPS/UT3-Prueba-calificable01/img/9image.png)
+![9](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/9image.png)
 
 1. **Explicación de dos errores**
     
@@ -184,7 +184,7 @@ sudo trivy config Dockerfile
 trivy config Dockerfile
 ```
 
-[10](https://https://github.com/DanielSaGo/PPS/UT3-Prueba-calificable01/img/10image.png)
+![10](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/10image.png)
 
 **El resultado que vemos, al hacer el análisis del dockerfile que creamos en la primera actividad es el siguiente: Al ser un dockerfile con poco contenido, nos mostrará menos información de análisis del dockerfile, en nuestro caso nos especifica dos errores, uno HIGH y otro MEDIUM. La alerta HIGH nos cuenta como podemos leer, nos recomienda que especifiquemos al menos un usuario en el dockerfile. La alerta MEDIUM que nos especifica, es que deberíamos de cambiar en el comando RUN cd /var/www/html por WORKDIR cd /var/www/html.**
 
@@ -198,7 +198,7 @@ Con el siguiente comando se iniciara el análisis de la imagen de wordpress:
 **trivy image wordpress:latest**
 ```
 
-[11](https://https://github.com/DanielSaGo/PPS/UT3-Prueba-calificable01/img/11image.png)
+![11](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/11image.png)
 
 Con el siguiente comando se iniciara el analisi de la imagen de wordpress:4.6: 
 
