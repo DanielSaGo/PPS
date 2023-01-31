@@ -46,7 +46,7 @@ En este apartado veremos cómo se analiza el entorno, depués de hacer las activ
     
     ![2](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/2image.png)
     
-    <img src="https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/3image.png" width="550"/>
+    <img src="https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/3image.png" width="250"/>
 
 2. **Utilizando AuditD para analizar las pruebas de la Sección A, referente al host.**
 
@@ -120,7 +120,7 @@ Al ejecutar el docker-brench-security, se arreglan algunos errores con lo hecho 
 
 ![8](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/8image.png)
 
-<img src="https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/9image.png" width="550"/>
+<img src="https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/9image.png" width="250"/>
 
 1. **Explicación de dos errores**
     
