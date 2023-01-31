@@ -34,7 +34,7 @@ En este apartado veremos cómo se analiza el entorno, depués de hacer las activ
     git clone https://github.com/docker/docker-bench-security.git
     ```
     
-    [0](https://https://github.com/DanielSaGo/PPS/UT3-Prueba-calificable01/img/0image.png)
+    [0](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/0image.png)
     
     ```bash
     cd docker-bench-security/
@@ -42,11 +42,11 @@ En este apartado veremos cómo se analiza el entorno, depués de hacer las activ
     ./docker-bench-security.sh
     ```
     
-    [1](https://https://github.com/DanielSaGo/PPS/UT3-Prueba-calificable01/img/1image.png)
+    [1](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/1image.png)
     
-    ![2](https://https://github.com/DanielSaGo/PPS/UT3-Prueba-calificable01/img/2image.png)
+    ![2](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/2image.png)
     
-    [3](https://https://github.com/DanielSaGo/PPS/UT3-Prueba-calificable01/img/3image.png)
+    [3](https://github.com/DanielSaGo/PPS/blob/main/UT3-Prueba-calificable01/img/3image.png)
     
 
 2. **Utilizando AuditD para analizar las pruebas de la Sección A, referente al host.**
